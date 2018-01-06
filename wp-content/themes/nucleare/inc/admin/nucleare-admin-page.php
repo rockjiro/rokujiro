@@ -207,7 +207,7 @@ class Nucleare_Admin {
 						</h3>
 						<p><?php esc_html_e( 'Click below to translate this theme into your own language.', 'nucleare' ) ?></p>
 						<p>
-							<a target="_blank" href="<?php echo esc_url( 'http://translate.wordpress.org/projects/wp-themes/nucleare/' ); ?>" class="button button-secondary">
+							<a target="_blank" href="<?php echo esc_url( 'https://translate.wordpress.org/projects/wp-themes/nucleare/' ); ?>" class="button button-secondary">
 								<?php
 								esc_html_e( 'Translate', 'nucleare' );
 								echo ' ' . esc_html($theme->display( 'Name' ));
