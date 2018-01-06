@@ -26,7 +26,7 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 /** WordPress のためのデータベース名 */
-define('DB_NAME', 'heroku_a411601a0c757a1?reconnect');
+define('DB_NAME', 'heroku_a411601a0c757a1');
 
 /** MySQL データベースのユーザー名 */
 define('DB_USER', 'bcefa2316b11cb');
