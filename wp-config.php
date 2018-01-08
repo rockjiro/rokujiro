@@ -82,9 +82,6 @@ $table_prefix  = 'wp_';
  * @link http://wpdocs.osdn.jp/WordPress%E3%81%A7%E3%81%AE%E3%83%87%E3%83%90%E3%83%83%E3%82%B0
  */
 define('WP_DEBUG', false);
-
-define('WP_SITEURL','https://dolphin-rokujiro.com/');
-define('WP_HOME','https://dolphin-rokujiro.com/');
 /* 編集が必要なのはここまでです ! WordPress でブログをお楽しみください。 */
 
 /** Absolute path to the WordPress directory. */
