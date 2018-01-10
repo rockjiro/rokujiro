@@ -38,7 +38,7 @@
     </header>
     <div class="tm-excerpt">
         <a class="uk-link-reset" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-            <?php the_excerpt(); ?>
+            <?php //the_excerpt(); ?>
         </a>
     </div>
     <footer>

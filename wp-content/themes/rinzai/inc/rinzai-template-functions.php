@@ -36,7 +36,7 @@ if ( ! function_exists( 'rinzai_show_post_date' ) ) {
     function rinzai_show_post_date() {
         $posted_on = sprintf( '<time class="date uk-margin-small-right tm-text-xsmall" datetime="%1$s">%2$s</time>',
                              esc_attr( get_the_date('c') ),
-                             esc_html( get_the_date('j F Y') )
+                             esc_html( get_the_date('Y/m/d') )
         ); ?>
 
         <span data-uk-icon="icon: clock; ratio: .65" style="position: relative; bottom: 1px;"></span> <span class="posted-on"><?php echo $posted_on; ?></span>
