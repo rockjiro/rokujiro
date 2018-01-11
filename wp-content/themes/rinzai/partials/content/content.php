@@ -10,11 +10,11 @@
             <a href="<?php the_permalink(); ?>">
                 <figure class="uk-margin-small-bottom uk-cover-container uk-height-small uk-section-muted uk-transition-toggle">
                     <?php the_post_thumbnail( 'medium', array( 'data-uk-cover' => '' ) ); ?>
-                    <!--<div class="uk-overlay-default uk-position-cover uk-transition-fade">-->
-                    <!--    <div class="uk-position-center">-->
-                    <!--        <span data-uk-overlay-icon></span>-->
-                    <!--    </div>-->
-                    <!--</div>-->
+                    <div class="uk-overlay-default uk-position-cover uk-transition-fade">
+                        <!--<div class="uk-position-center">-->
+                        <!--    <span data-uk-overlay-icon></span>-->
+                        <!--</div>-->
+                    </div>
                 </figure>
             </a>
             <div class="uk-article-meta uk-margin-small-bottom">
