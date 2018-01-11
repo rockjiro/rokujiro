@@ -7,7 +7,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <?php if ( has_post_thumbnail() ) : ?>
         <header class="uk-section-muted uk-light uk-margin-medium-bottom">
-            <div class="uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-xlarge uk-cover-container" style="background-image: url('<?php the_post_thumbnail_url( 'large' ); ?>');">
+            <div class="uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-xlarge uk-cover-container" style="padding:0px;">
+                <img src="<?php the_post_thumbnail_url( 'large' ); ?>" alt="<?php the_title() ?>">
                 <div class="uk-overlay uk-overlay-primary uk-position-cover">
                     <div class="uk-overlay uk-position-bottom">
                         <?php if ( function_exists( 'yoast_breadcrumb' ) ) : ?>
