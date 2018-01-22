@@ -24,7 +24,7 @@
 	<div class="theNavigationBar">
 		<div class="theNavigationBlock">
 			<nav id="site-navigation" class="main-navigation">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" name="menu"><i class="fa fa-bars"></i></button>
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" role="button" tabindex="0"><i class="fa fa-bars"></i></button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
 			<?php 
