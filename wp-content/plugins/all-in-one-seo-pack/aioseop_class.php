@@ -4540,8 +4540,7 @@ EOF;
 					'title'  => __( 'Upgrade To Pro', 'all-in-one-seo-pack' ),
 					'id'     => 'aioseop-pro-upgrade',
 					'href'   => 'https://semperplugins.com/plugins/all-in-one-seo-pack-pro-version/?loc=menu',
-					'meta'   => array( 'target' => '_blank' ),
-					'rel'    => 'noopener'
+					'meta'   => array( 'target' => '_blank','rel'    => 'noopener' ),
 				) );
 				// add_action( 'admin_bar_menu', array( $this, 'admin_bar_upgrade_menu' ), 1101 );
 			}
