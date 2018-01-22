@@ -21,7 +21,7 @@
 			<span class="sep"> | </span>
 			<?php
 			/* translators: 1: theme name, 2: theme developer */
-			printf( esc_html__( 'Theme: %1$s by %2$s.', 'nucleare' ), '<a target="_blank" href="https://crestaproject.com/downloads/nucleare/" rel="nofollow" title="Nucleare Theme">Nucleare Free</a>', 'CrestaProject WordPress Themes' );
+			printf( esc_html__( 'Theme: %1$s by %2$s.', 'nucleare' ), '<a target="_blank" href="https://crestaproject.com/downloads/nucleare/" rel="noopener" title="Nucleare Theme">Nucleare Free</a>', 'CrestaProject WordPress Themes' );
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
