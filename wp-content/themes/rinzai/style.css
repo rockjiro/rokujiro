@@ -4,6 +4,7 @@
 @font-face{font-family:"Yeseva One";src:url("assets/fonts/YesevaOne-Regular.ttf"), url("assets/fonts/YesevaOne-Regular.ttf") format("truetype");font-weight:400;font-style:normal;}
 html{font-family:"PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:16px;font-weight:normal;line-height:1.5;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background:#fff;color:#666;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;}
 body{margin:0;}
+h2 {background-color: #7fc1df;color: #fff;padding: 5px;border-radius: 5px;}
 a{background-color:transparent;-webkit-text-decoration-skip:objects;}
 a:active,
 a:hover{outline:none;}
@@ -2034,7 +2035,7 @@ input[type="submit"],
 .sidebar .widget ul li:before{content:'';display:block;position:absolute;left:0;top:8px;width:8px;height:8px;background:#ebebeb;}
 .sidebar .widget .tagcloud .tag-cloud-link{margin-right:1rem;}
 #content .post-content,
-#content .page-content{font-size:18px;}
+#content .page-content{font-size:16px;line-height:1.7;}
 #content .post-content a,
 #content .page-content a{border-bottom:2px solid #d2d2d2;-webkit-transition:border-bottom-color .25s ease-in-out;transition:border-bottom-color .25s ease-in-out;}
 #content .post-content a:hover, #content .post-content a:focus, #content .post-content a:active,
