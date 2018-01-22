@@ -56,7 +56,7 @@
                             <?php endif; ?>
                             <?php if ( has_nav_menu( 'main' ) ) : ?>
                                 <div class="uk-navbar-item uk-hidden@m">
-                                    <button class="uk-button uk-button-link uk-padding-small" data-uk-toggle="target: #offcanvas" type="button">
+                                    <button class="uk-button uk-button-link uk-padding-small" data-uk-toggle="target: #offcanvas" type="button" name="menu">
                                         <span data-uk-icon="icon: menu"></span>
                                     </button>
                                 </div>
