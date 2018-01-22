@@ -133,3 +133,9 @@ require 'inc/rinzai-hooks.php';
 require 'inc/Rinzai_Navbar_Walker.php';
 require 'inc/Rinzai_Comments_Walker.php';
 require 'inc/Rinzai_Offcanvas_Nav_Walker.php';
+
+function remove_src_wp_ver( $dep ) {
+	$dep->default_version = '';
+}
+add_action( 'wp_default_scripts', 'remove_src_wp_ver' );
+add_action( 'wp_default_styles', 'remove_src_wp_ver' );
