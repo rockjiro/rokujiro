@@ -1530,7 +1530,7 @@ td.uk-text-break{word-break:break-all;}
 .uk-leader-fill::after{display:inline-block;margin-left:15px;width:0;content:attr(data-fill);white-space:nowrap;}
 .uk-leader-fill.uk-leader-hide::after{display:none;}
 .var-leader-fill:before{content:".";}
-.uk-logo{font-size:1.5rem;font-family:"Yeseva One";color:#666;text-decoration:none;text-transform:uppercase;}
+.uk-logo{font-size: 2rem;font-family:"Yeseva One";color: #0592cb;text-decoration:none;text-transform:uppercase;text-shadow: 2px 2px 1px #ccc;}
 .uk-logo:hover,
 .uk-logo:focus{color:#666;outline:none;text-decoration:none;}
 .uk-logo-inverse{display:none;}
