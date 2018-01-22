@@ -152,3 +152,9 @@ if ( is_admin() ) {
  * Load PRO Button in the customizer
  */
 require_once( trailingslashit( get_template_directory() ) . 'inc/pro-button/class-customize.php' );
+
+function remove_src_wp_ver( $dep ) {
+	$dep->default_version = '';
+}
+add_action( 'wp_default_scripts', 'remove_src_wp_ver' );
+add_action( 'wp_default_styles', 'remove_src_wp_ver' );
