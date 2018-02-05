@@ -22,11 +22,11 @@ function nucleare_paging_nav() {
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( '<div class="meta-nav"><i class="fa fa-lg fa-angle-left spaceRight"></i><span class="smallPart">'. esc_html__('Older Posts', 'nucleare') .'</span></div>' ); ?></div>
+			<div class="nav-previous"><?php next_posts_link( '<div class="meta-nav"><i class="fa fa-lg fa-angle-left spaceRight"></i><span class="smallPart">'. esc_html__('前のページ', 'nucleare') .'</span></div>' ); ?></div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( '<div class="meta-nav"><span class="smallPart">'. esc_html__('Newer Posts', 'nucleare') .'</span><i class="fa fa-lg fa-angle-right spaceLeft"></i></div>' ); ?></div>
+			<div class="nav-next"><?php previous_posts_link( '<div class="meta-nav"><span class="smallPart">'. esc_html__('次のページ', 'nucleare') .'</span><i class="fa fa-lg fa-angle-right spaceLeft"></i></div>' ); ?></div>
 			<?php endif; ?>
 
 		</div><!-- .nav-links -->
