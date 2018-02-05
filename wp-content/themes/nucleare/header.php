@@ -22,8 +22,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable=no>
 <meta name="theme-color" content="#809ac9"/>
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<script type="text/javascript" src="//widget.booklog.jp/blogparts/js/booklog_minishelf.js?default" id="booklog_minishelf"></script>
-<script type="text/javascript" src="//api.booklog.jp/json/takumioozato?category=0&status=3&count=25&callback=booklog_minishelf"></script>
 <?php wp_head(); ?>
 </head>
 
