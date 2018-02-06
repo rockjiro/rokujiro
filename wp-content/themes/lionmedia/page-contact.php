@@ -126,9 +126,10 @@ URL: $url \r\n
             </td>
           </tr>
           <tr>
-            <th class="contactTable__header">メールアドレス</th>
+            <th class="contactTable__header">メールアドレス<span class="required">必須</span></th>
             <td class="contactTable__data">
             <input type="text" name="email" value="<?php if(isset($_POST['email'])) echo $_POST['email'];?>" />
+      <?php if(isset($emailError)) { ?><span class="error"><?=$emailError;?></span><?php } ?>
             </td>
           </tr>
           <tr>
