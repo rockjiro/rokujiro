@@ -17,7 +17,11 @@ if(isset($_POST['submitted'])) {
 		
 		//メールアドレス
 		if(trim($_POST['email']) === '') {
-			$email = "";
+			$emailError = 'メールアドレスが入力されていません';
+			$hasError = true;
+		} else if (!preg_match('|^[0-9a-z_./?-]+@([0-9a-z-]+.)+[0-9a-z-]+$|', trim($_POST['email']))) {
+			$emailError = 'メールアドレスが正しくありません';
+			$hasError = true;
 		} else {
 			$email = trim($_POST['email']);
 		}
