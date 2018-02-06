@@ -15,15 +15,18 @@ if(isset($_POST['submitted'])) {
 			$name = trim($_POST['contactName']);
 		}
 		
-		//メールアドレスの間違い
+		//メールアドレス
 		if(trim($_POST['email']) === '') {
-			$emailError = 'メールアドレスが入力されていません';
-			$hasError = true;
-		} else if (!preg_match('|^[0-9a-z_./?-]+@([0-9a-z-]+.)+[0-9a-z-]+$|', trim($_POST['email']))) {
-			$emailError = 'メールアドレスが正しくありません';
-			$hasError = true;
+			$email = "";
 		} else {
 			$email = trim($_POST['email']);
+		}
+		
+		//URL
+		if(trim($_POST['url']) === '') {
+			$url = "";
+		} else {
+			$url = trim($_POST['url']);
 		}
 		
 		//お問い合わせ内容の入力なし
@@ -50,6 +53,7 @@ if(isset($_POST['submitted'])) {
 -------------------------------------------------\r\n
 お名前: $name \r\n
 メールアドレス: $email \r\n
+URL: $url \r\n
 お問い合わせ内容: $comments \r\n
 -------------------------------------------------
 ";
@@ -72,6 +76,7 @@ $title にお問い合わせありがとうございます。\r\n
 -------------------------------------------------\r\n
 お名前：$name \r\n
 メールアドレス：$email \r\n
+URL: $url \r\n
 お問い合わせ内容：$comments \r\n
 -------------------------------------------------
 ";
@@ -117,10 +122,15 @@ $title にお問い合わせありがとうございます。\r\n
             </td>
           </tr>
           <tr>
-            <th class="contactTable__header">メールアドレス<span class="required">必須</span></th>
+            <th class="contactTable__header">メールアドレス</th>
             <td class="contactTable__data">
             <input type="text" name="email" value="<?php if(isset($_POST['email'])) echo $_POST['email'];?>" />
-			<?php if(isset($emailError)) { ?><span class="error"><?=$emailError;?></span><?php } ?>
+            </td>
+          </tr>
+          <tr>
+            <th class="contactTable__header">URL</th>
+            <td class="contactTable__data">
+            <input type="text" name="url" value="<?php if(isset($_POST['url'])) echo $_POST['url'];?>" />
             </td>
           </tr>
           <tr>
