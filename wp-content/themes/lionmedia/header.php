@@ -27,7 +27,13 @@ if(get_option('fit_anp_check') == 'value2' && is_single() && @$_GET['amp'] === '
 <?php if (get_option('fit_advanced_head')): ?>
 <?php echo get_option('fit_advanced_head'); ?>
 <?php endif; ?>
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3645277914161434",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
 <body<?php fit_body_class(); ?>>
 <?php if($myAmp && get_option('fit_access_ampgaid')){ // AMPページanalytics ?>
