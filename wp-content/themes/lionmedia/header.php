@@ -34,15 +34,6 @@ if(get_option('fit_anp_check') == 'value2' && is_single() && @$_GET['amp'] === '
     enable_page_level_ads: true
   });
 </script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 横長バナー_テスト -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:468px;height:60px"
-     data-ad-client="ca-pub-3645277914161434"
-     data-ad-slot="3310660449"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 </head>
 <body<?php fit_body_class(); ?>>
 <?php if($myAmp && get_option('fit_access_ampgaid')){ // AMPページanalytics ?>
