@@ -3970,5 +3970,11 @@ function convert_content_amp($the_content){
 add_filter('the_content','convert_content_amp', 999999999);
 
 
+function allow_iframe_tag($content){
+global $allowedposttags;
+$allowedposttags['iframe'] = array('class'=>array() , 'src'=>array() , 'width'=>array(), 'height'=>array() , 'frameborder'=>array() , 'scrolling'=>array() , 'marginheight'=>array(), 'marginwidth'=>array() , 'allowfullscreen'=>array());
+return $content;
+}
+add_filter('content_save_pre','allow_iframe_tag');
 
 ?>
