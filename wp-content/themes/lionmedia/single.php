@@ -109,9 +109,6 @@ get_header(); ?>
 	  
 	  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <section class="content">
-     	<a href="https://www.amazon.co.jp/b?tag=symfony0819-22&linkCode=ur1&node=4429743051">
-     		<img src="<?= get_template_directory_uri().'/img/amazon.jpg' ?>"></img>
-     	</a>
 	    <?php the_content(); ?>
       </section>
 	  <?php endwhile; endif; ?>
