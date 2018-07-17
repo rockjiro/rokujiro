@@ -109,7 +109,7 @@ get_header(); ?>
 	  
 	  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <section class="content">
-      <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=48&l=ur1&category=primeday&banner=0JG5EB0Y1M4YZD8Q03G2&f=ifr&linkID=72e02d65a6daa39549f3511fb8b2776d&t=symfony0819-22&tracking_id=symfony0819-22" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+      <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=48&l=ur1&category=primeday&banner=0JG5EB0Y1M4YZD8Q03G2&f=ifr&linkID=72e02d65a6daa39549f3511fb8b2776d&t=symfony0819-22&tracking_id=symfony0819-22" style="width:728px; height:90px; border:none;" scrolling="no" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 	    <?php the_content(); ?>
       </section>
 	  <?php endwhile; endif; ?>
