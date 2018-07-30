@@ -3977,4 +3977,11 @@ return $content;
 }
 add_filter('content_save_pre','allow_iframe_tag');
 
+add_action( 'wp_print_styles', 'amazon_deregister_styles', 100 );
+function amazon_deregister_styles() {
+if ( ! is_single()) {
+    wp_deregister_style( 'amazonjs' );
+    }
+}
+
 ?>
