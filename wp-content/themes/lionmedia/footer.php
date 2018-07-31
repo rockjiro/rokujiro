@@ -43,7 +43,7 @@ if(get_option('fit_anp_check') == 'value2' && is_single() && @$_GET['amp'] === '
             © Copyright <?php echo date( 'Y' ); ?> <a class="copySns__copyLink" href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>.
           <?php endif; ?>
 	      <span class="copySns__copyInfo<?php if (get_option('fit_theme_copyrightInfo')): ?> u-none<?php endif; ?>">
-		    <?php bloginfo( 'name' ); ?> by <a class="copySns__copyLink" href="http://fit-jp.com/" target="_blank">FIT</a>. Powered by <a class="copySns__copyLink" href="https://wordpress.org/" target="_blank">WordPress</a>.
+		    <?php bloginfo( 'name' ); ?> by <a class="copySns__copyLink" href="http://fit-jp.com/" target="_blank" rel="noreferrer">FIT</a>. Powered by <a class="copySns__copyLink" href="https://wordpress.org/" rel="noreferrer" target="_blank">WordPress</a>.
           </span>
         </div>
       
