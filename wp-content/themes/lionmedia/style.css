@@ -327,10 +327,7 @@ a{
 	margin-left: -20px;
 }
 .archiveItem{
-	/*width:calc(50% - 20px);*/
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
+	width:calc(50% - 20px);
     position: relative;
     margin:0 0 40px 20px;
 }
@@ -1909,8 +1906,8 @@ a.page-numbers.next::before{
 
 	.archive {margin-left: -10px;}
 	.archiveItem {
-		/*width: 100%;*/
-		margin: 0 0 30px 10px;
+		width: calc(50% - 10px);
+		margin: 0 0 20px 10px;
 	}
 	.archiveItem__text{font-size:1.4rem;}
 	
