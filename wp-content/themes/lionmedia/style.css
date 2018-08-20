@@ -1909,8 +1909,8 @@ a.page-numbers.next::before{
 
 	.archive {margin-left: -10px;}
 	.archiveItem {
-		width: calc(50% - 10px);
-		margin: 0 0 20px 10px;
+		width: 100%;
+		margin: 0 0 30px 10px;
 	}
 	.archiveItem__text{font-size:1.4rem;}
 	
