@@ -327,7 +327,11 @@ a{
 	margin-left: -20px;
 }
 .archiveItem{
-	width:calc(50% - 20px);
+	/*width:calc(50% - 20px);*/
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
     position: relative;
     margin:0 0 35px 20px;
 }
@@ -1906,8 +1910,8 @@ a.page-numbers.next::before{
 
 	.archive {margin-left: -10px;}
 	.archiveItem {
-		width: calc(50% - 10px);
-		margin: 0 0 20px 10px;
+		/*width: calc(50% - 10px);*/
+		margin: 0 0 40px 10px;
 	}
 	.archiveItem__text{font-size:1.4rem;}
 	
