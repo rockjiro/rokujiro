@@ -38,7 +38,7 @@ define('DB_PASSWORD', 'cd55e579');
 define('DB_HOST', 'us-cdbr-iron-east-05.cleardb.net');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
-define('DB_CHARSET', 't');
+define('DB_CHARSET', 'utf8');
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
